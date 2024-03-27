@@ -1,0 +1,25 @@
+.cover img:hover{
+    transform: scale(1.2);
+transition: all .8s;
+}
+.cover{
+    overflow: hidden;
+    border-radius:10px 10px 0px 0px ;
+}
+ #btn{
+    margin-top: 40px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    padding:16px 35px;
+    cursor: pointer;
+    text-transform: capitalize;
+    color:#07294d;
+    border: 1px solid grey;
+    transition: all 1s;
+}
+#btn:hover{
+    color:white;
+    background-color: #0c8b51;
+    border:  #0c8b51;
+}

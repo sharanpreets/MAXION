@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.green-background{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#EBF5F1 ;
+}
+.txt-container img{
+    margin-bottom:10px ;
+    width: 49px;
+    margin: auto;
+}
+.txt-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.txt-container h1{
+    color: midnightblue;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+.txt-container p{
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
